@@ -19,8 +19,27 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="pt-BR">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        {children}
+      <body
+        className={`${geistSans.variable} ${geistMono.variable}`}
+        style={{
+          minHeight: "100vh",
+          display: "flex",
+          flexDirection: "column",
+        }}
+      >
+        <main style={{ flex: 1 }}>{children}</main>
+
+        <footer
+          style={{
+            // backgroundColor: "#111",
+            color: "#535353ff",
+            textAlign: "center",
+            padding: "15px 0",
+            fontSize: "14px",
+          }}
+        >
+          © 2025 Lucas Panfieti. Todos os direitos reservados.
+        </footer>
       </body>
     </html>
   );
