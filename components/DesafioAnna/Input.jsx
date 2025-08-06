@@ -1,0 +1,13 @@
+export default function Input(props) {
+  return (
+    <>
+      <input
+        id={props.id}
+        name={props.id}
+        type={props.type}
+        placeholder={props.placeholder}
+        onChange={(eventos) => props.newValue(eventos.target.value)}
+      />
+    </>
+  );
+}
