@@ -1,4 +1,6 @@
-![Demonstração](https://raw.githubusercontent.com/seu-usuario/seu-repo/main/public/assets/demo.gif)
+![Demonstração](https://raw.githubusercontent.com/LucasPanfieti/ToDoList_Next/main/public/assets/demo.gif)
+
+![Demonstração](./public/assets/demo.gif)
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
